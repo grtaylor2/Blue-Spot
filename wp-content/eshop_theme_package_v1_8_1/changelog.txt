@@ -1,0 +1,200 @@
+*===================================================*
+ THANK YOU FOR PURCHASING OUR THEME.
+*===================================================*
+
+Eshop Child Theme
+
+This version is '1.8.1'
+
+The child theme requires the following plugin:
+
+- WooCommerce
+- Genesis Connect for WooCommerce
+
+==============================================================================
+
+Visit our support forum site http://zigzagpress.zendesk.com/
+
+==============================================================================
+
+== v1.8.1 === 25 August 2016
+- Updated mobile menu
+- Updated style.css versions and tags
+
+Files Affected
+- functions.php
+- jquery.custom.js
+- style.css
+
+Removed file:
+- jquery.mobilemenu.js
+
+
+== v1.8 === 27 April 2016
+- Fixed slider navigation issues
+- Fixed slider button markup when link option is empty
+- Fixed issue on special character on ZP product widget title
+- Fixed misalignment of product search form
+- Fixed template compatibility issue on Woocommerce
+- Fixed untranslated strings
+- Removed logo and favicon option in Eshop Settings and use the default in customizer
+- Removed header height declaration to avoid cutting of image logo
+- Updated Google font inclusion into the theme. Enqueue it instead of importing in the css
+- Updated global variable $woocommerce to WC()
+- Updated flexslider script with latest version
+- Updated style.css version number
+
+Files Affected:
+- style.css
+- functions.php
+- theme_functions.php
+- slider.php
+- woocommerce_css.css
+- theme_settings.php
+- flexslider.css
+- woocommerce.php
+- jquery.flexslider.js
+
+
+== v1.7 === 17 September 2015
+- Fixed issue on add to cart no clickable in the home product slider on mobile
+- Fixed bold and italic style not rendering on frontend
+- Fixed error on custom widgets
+- Fixed header total cart amount mis-alignment when value exceeds to 4 digits
+- Fixed issue in shortcode icons in the editor
+- Updated Woocommerce template version to remove admin notice
+- Update style.css version
+
+Files Affected:
+- style.css
+- editor-plugin.js
+- shortocode.php
+- mobile.css
+- theme_functions.php
+- widget-address.php
+- widget-flickr.php
+- widget-products.php
+- archive-product.php
+- single-product.php
+- content-product.php
+
+
+== v1.6 ( Security Updates ) === 20 May 2015
+- Update PrettyPhoto to 3.1.6 to resolve XSS security issue
+- Updated logo and favicon uploader.
+
+Files Affected:
+- functions.php
+- style.css
+- theme_settings.php
+- image-upload.js
+
+Files Replaced:
+- prettyPhoto.css ( under /css/ folder )
+- jquery.prettyPhoto.js ( under /js/ folder )
+
+
+
+== v1.5 === 13 March 2015
+- Add compatibility to Woocommerce 2.3+
+- Update functions so that theme works even without Woocommerce installed
+- Updated style version number
+
+Files affected:
+- style.css
+- functions.php
+- woocommerce.php
+- theme_functions.php
+- woocommerce_css.css
+
+== v1.4 === 24 November 2014
+
+- fixed bug in assigning favicon
+- fixed bug in product category navigation
+- fixed duplicate and missing CSS
+- fixed untranslated strings
+- added shop settings ( Genesis -> Eshop Settings -> Shop Settings ) to easy change number of product items and number of columns in the shop and related products
+- added filter to easily update header cart label ( See attached README.txt for the sample filter functions ).
+        => zp_shop_alternate_text
+        => zp_cart_singular_label
+        => zp_cart_plural_label
+        => zp_header_cart_image
+- Updated pot file
+
+Files Affected:
+
+- woocommerce.php
+- theme_settings.php
+- style.css
+- mobile.css
+- shortcode.css
+- woocommerce_css.css
+- functions.php
+- eshop.pot
+
+
+==v1.3== 18/07/2014
+- Compatible with Woocommerce 2.1+
+- Updated "portfolio images" post meta
+- Removed timthumb
+- Updated portfolio template functions
+- Added filter to disable the default woocommerce style
+- Updated untranslated strings
+- Removed updater
+- Added target to the button
+- Code refactoring
+- Fixed child theme settings layout
+- Updated mobile view
+
+Files Affected:
+- functions.php
+- single-product.php
+- woocommerce.php
+- archive-product.php
+- style.css
+- screenshot.png
+- all files in cpt folder
+- theme-functions.php
+- shortcode.php
+- single-portfolio.php
+- theme_settings.php
+- woocommerce_css.css
+- jquery.custom.js
+- mobile.css
+
+
+==v1.2== 25/09/2013
+
+- Fix logo error
+- update translation file (change file extension from .po to .pot)
+- remove secondary navigation
+
+
+Files Affected:
+
+- functions.php
+- eshop.pot
+
+
+==v1.1== 30/08/2013
+
+- compatible with Genesis2.0 and WP3.6
+- fix scripts ( load only used scripts )
+- Add Update notice in the chid theme settings (will display a notice that there is a latest version )
+- Updated Custom Post Type and Post Meta Functions
+- Updated PHP functions and CSS files
+- Re-structure files and folder
+- NEW: Contact/Address Widget
+- NEW: New shortcodes are added and updated
+- NEW: Child Theme Settings
+- Translation Ready (include a .po file)
+
+Files Affected:
+
+- All Files
+
+
+
+==v1.0== 26/04/2013
+
+* initial released 
